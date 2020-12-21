@@ -54,6 +54,7 @@ h2 + p {
   order: -1;
   border-top: 5px solid #f93822;
   border-image: linear-gradient(to left, #f93822, #F08080) 1;
+  border-width: 5px 0 0;
 }
 
 .fine-print {
@@ -72,10 +73,8 @@ strong { font-weight: 900; }
   background-image: url(../images/koop.png);
   background-size: cover;
   background-color: #404040; 
-  /* background-color: #ff0000;  */
   background-position: center;
   background-blend-mode: difference;
-  /* background-blend-mode: multiply; */
   padding: 0 .5em 2em;
   display: flex;
   flex-direction: column;
